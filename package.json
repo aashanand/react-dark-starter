@@ -1,0 +1,40 @@
+{
+  "name": "aash.x-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.18.0",
+    "create-react-app": "^3.4.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "get-dark-cli": "curl https://dark-cli.storage.googleapis.com/latest/dark-cli-apple --output dark-cli-apple && chmod +x dark-cli-apple",
+    "build-dark-assets": "PUBLIC_URL=DARK_STATIC_ASSETS_BASE_URL react-scripts build",
+    "choose-canvas": "scripts/choose-canvas.js",
+    "deploy": "./dark-cli-apple --canvas $DARK_STATIC_ASSETS_BASE_URL --user $DARK_USERNAME --password $DARK_PASSWORD build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
