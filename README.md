@@ -36,4 +36,8 @@ You only need to do this once per project. Every other time, you can skip to the
 
 If you get "Not Found" on this step, you need to visit [https://darklang.com/a/USERNAME-CANVASNAME](https://darklang.com/a/USERNAME-CANVASNAME) first in your browser.
 
-That's it! Go to your dark canvas and follow the 404s into backend development.
+## Serve from Dark
+
+1. Go to [https://darklang.com/a/USERNAME-CANVASNAME](https://darklang.com/a/USERNAME-CANVASNAME)
+2. Create a new `HTTP GET` handler with route `/`
+3. For the expression, use `StaticAssets:serveLatest` -> `"index.html"`
