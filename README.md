@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Clone the repo
 `git clone git@github.com:aashanand/react-dark-starter.git`
 
+`cd react-dark-starter`
+
 ## Set Environment Variables
 
 To start, first set up some environment variables.
