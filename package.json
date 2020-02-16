@@ -19,7 +19,6 @@
     "eject": "react-scripts eject",
     "get-dark-cli": "curl https://dark-cli.storage.googleapis.com/latest/dark-cli-apple --output dark-cli-apple && chmod +x dark-cli-apple",
     "build-dark-assets": "PUBLIC_URL=DARK_STATIC_ASSETS_BASE_URL react-scripts build",
-    "choose-canvas": "scripts/choose-canvas.js",
     "deploy": "./dark-cli-apple --canvas $DARK_STATIC_ASSETS_BASE_URL --user $DARK_USERNAME --password $DARK_PASSWORD build"
   },
   "eslintConfig": {
