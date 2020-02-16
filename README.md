@@ -21,6 +21,10 @@ Then, there are just four more steps before you're in business.
 
 `npm install`
 
+## Special build command
+
+`npm run build-dark-assets`
+
 ## Get Dark CLI
 You only need to do this once per project. Every other time, you can skip to the next step.
 
