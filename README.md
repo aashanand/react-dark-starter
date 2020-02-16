@@ -17,7 +17,7 @@ To start, first set up some environment variables.
 
 Then, there are just four more steps before you're in business.
 
-## Installing modules
+## Install modules
 
 `npm install`
 
