@@ -8,7 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To start, first set up some environment variables.
 
 `export DARK_STATIC_ASSETS_BASE_URL='replace-with-your-canvas-name';`
+
 `export DARK_USERNAME='replace-with-your-dark-username';`
+
 `export DARK_PASSWORD='replace-with-your-dark-password';`
 
 Then, there are just four more steps before you're in business.
