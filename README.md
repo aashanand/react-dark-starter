@@ -14,17 +14,22 @@ To start, first set up some environment variables.
 Then, there are just four more steps before you're in business.
 
 ## Installing modules
+
 `npm install`
 
 ## Special build command
+
 `npm run build-for-dark`
 
 ## Get Dark CLI
 You only need to do this once per project. Every other time, you can skip to the next step.
+
 `npm run get-dark-cli`
 
 ## Deploy to Dark
+
 `npm run deploy`
+
 If you get "Not Found" on this step, you need to visit [https://darklang.com/a/USERNAME-CANVASNAME](https://darklang.com/a/USERNAME-CANVASNAME) first in your browser.
 
 That's it! Go to your dark canvas and follow the 404s into backend development.
