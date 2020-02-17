@@ -42,9 +42,9 @@ If you get "Not Found" on this step, you need to visit [https://darklang.com/a/U
 2. Create a new `HTTP GET` handler with route `/`
 3. For the expression, use `StaticAssets:serveLatest` -> `"index.html"`
 
+Like so.
+
+![backend handler](public/backend-handler.png)
+
 ## Demo
 Demo lives [here](https://aash-react-dark-starter.builtwithdark.com/).
-
-Demo image below.
-
-![demo image](public/backend-handler.png)
