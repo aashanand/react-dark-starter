@@ -41,3 +41,10 @@ If you get "Not Found" on this step, you need to visit [https://darklang.com/a/U
 1. Go to [https://darklang.com/a/USERNAME-CANVASNAME](https://darklang.com/a/USERNAME-CANVASNAME)
 2. Create a new `HTTP GET` handler with route `/`
 3. For the expression, use `StaticAssets:serveLatest` -> `"index.html"`
+
+## Demo
+Demo lives [here](https://aash-react-dark-starter.builtwithdark.com/).
+
+Demo image below.
+
+![demo image](public/backend-handler.png)
